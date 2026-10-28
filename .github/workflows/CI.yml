@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Install Test PlaLorm
-      working-directory: /home/runner/work/kelvin-DDD/kelvin-DDD/Caluculations/Caluculations
+      working-directory: /home/runner/work/kelvin-DDD/kelvin-DDD/Caluculations
       run: dotnet add package MicrosoF.TestPlaLorm --version 17.5.0
 
     - name: Dependency Restore
